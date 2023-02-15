@@ -119,11 +119,21 @@ transform: translatey(100px);
     background: #1c0522;
 }
 .sec h2{
+    padding: 20px;
+    background: linear-gradient(#1c0522, #04163c);
+    border-radius: 20px;
     font-size: 3.5em;
     margin-bottom: 10px;
     color: #fff;
 }
+.story{
+    border: 4px inset #7597de;
+    padding: 15px;
+    text-align: left;
+    background: linear-gradient(#1c0522,#04163c);
+}
 .sec p{
-    font-size: 1em;
+    
+    font-size: 1.5em;
     color: #fff;
 }
