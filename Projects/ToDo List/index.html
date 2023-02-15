@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Todo List App</title>
+  <style>
+    /* Style the header */
+    header {
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 20px;
+      font-size: 30px;
+      color: black;
+    }
+
+    /* Style the input field and add button */
+    input[type=text] {
+      width: 70%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    /* Style the list */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      padding: 12px;
+      text-align: left;
+      background-color: #f2f2f2;
+      margin-bottom: 4px;
+      border-radius: 4px;
+    }
+
+    li:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Todo List App</h1>
+  </header>
+
+  <div>
+    <input type="text" id="new-task" placeholder="Add new task...">
+    <button id="add-task">Add</button>
+  </div>
+
+  <ul id="todo-list">
+  </ul>
+
+  <script>
+    // Get the input field and button
+    const input = document.getElementById("new-task");
+    const addButton = document.getElementById("add-task");
+    const todoList = document.getElementById("todo-list");
+
+    // Create a new list item when clicking on the "Add" button
+    addButton.onclick = function() {
+      const newTask = document.createElement("li");
+      const taskText = document.createTextNode(input.value);
+      newTask.appendChild(taskText);
+      todoList.appendChild(newTask);
+      input.value = "";
+    };
+
+    // Mark a task as done when clicking on it
+    todoList.addEventListener("click", function(event) {
+      if (event.target.tagName === "LI") {
+        event.target.classList.toggle("done");
+      }
+    });
+  </script>
+</body>
+</html>

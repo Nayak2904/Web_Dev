@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Digital Clock</title>
+    <style>
+      /* CSS Styles */
+      body {
+        text-align: center;
+      }
+
+      #clock {
+        font-size: 3em;
+        font-weight: bold;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: bisque;
+        display: inline-block;
+        transition: background-comor 0.5s;
+        cursor: pointer;
+      }
+      #clock:hover{
+        background-color: rgb(244, 162, 63);
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="clock"></div>
+
+    <!-- JavaScript Code -->
+    <script>
+      function showTime() {
+        let date = new Date();
+        let hours = date.getHours();
+        let minutes = date.getMinutes();
+        let seconds = date.getSeconds();
+        let amOrPm = hours >= 12 ? 'PM' : 'AM';
+        hours = hours % 12;
+        hours = hours ? hours : 12; // '0' should be '12'
+        minutes = minutes < 10 ? '0' + minutes : minutes;
+        seconds = seconds < 10 ? '0' + seconds : seconds;
+        let time = hours + ':' + minutes + ':' + seconds + ' ' + amOrPm;
+        document.getElementById('clock').innerText = time;
+        setTimeout(showTime, 1000);
+      }
+      showTime();
+    </script>
+  </body>
+</html>
