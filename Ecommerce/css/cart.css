@@ -1,0 +1,31 @@
+/* Styles for cart section */
+.cart {
+    padding: 2rem;
+  }
+  
+  .cart h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .cart-item {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .cart-item-image img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 1rem;
+  }
+  
+  .cart-item-details {
+    text-align: left;
+  }
+  
+  .cart-total {
+    text-align: right;
+    margin-top: 1rem;
+  }
+  
+  /* Other styles remain the same */
+  

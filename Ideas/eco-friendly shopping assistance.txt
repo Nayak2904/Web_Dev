@@ -1,0 +1,19 @@
+What is an Eco-Friendly Shopping Assistance app?
+
+Ans. An eco-friendly shopping assistance app is a mobile application that helps shoppers make sustainable choices while grocery shopping. The app provides users with information on the environmental impact of products, such as their carbon footprint, recyclability, and other sustainability factors.
+
+The app typically works by allowing users to scan the barcodes of products using their mobile phone's camera. The app then uses image recognition technology to identify the product and provide information on its sustainability. This information can include whether the product is made from sustainable materials, if it's recyclable or compostable, or if it has any certifications indicating that it meets certain environmental standards.
+
+In addition to providing information on individual products, eco-friendly shopping assistance apps may also include features such as shopping list management, product comparison, and personalized recommendations. The app can help users find sustainable alternatives to products they regularly buy and encourage them to reduce their environmental impact by making more sustainable choices.
+
+Overall, eco-friendly shopping assistance apps are designed to help consumers make more informed decisions about the products they buy and to promote sustainable shopping habits. By providing users with easy access to information on sustainability factors, these apps can help reduce the environmental impact of consumer purchasing decisions.
+
+
+
+What is Carbon footprint?
+
+Ans. A carbon footprint refers to the total amount of greenhouse gases (primarily carbon dioxide) that are emitted into the atmosphere as a result of human activities. These emissions can come from a variety of sources, including transportation, energy use in buildings, industrial processes, and the production and transportation of goods.
+
+Individuals, businesses, and governments can calculate their carbon footprint to understand the extent of their contribution to climate change and identify ways to reduce their emissions. Carbon footprints are typically measured in units of carbon dioxide equivalent (CO2e), which allows for the comparison of emissions from different greenhouse gases based on their global warming potential.
+
+Reducing our carbon footprint is important because greenhouse gas emissions are the primary driver of climate change, which poses a significant threat to the planet's ecological and social systems. By taking action to reduce our emissions, we can help limit the magnitude and impact of climate change.

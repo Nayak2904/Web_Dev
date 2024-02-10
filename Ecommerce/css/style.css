@@ -1,0 +1,46 @@
+/* Basic styling for header and footer */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Basic styling for navigation menu */
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Styling for product cards */
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .product-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Basic styling for footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
